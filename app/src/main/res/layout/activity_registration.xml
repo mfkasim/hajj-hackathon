@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#b5bfc2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/please_enter_the_number_of_traveller"
+            android:layout_margin="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <!--android:hint="@string/how_many_person_you_are"-->
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:text="1"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnLocate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lets_go"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+            android:textAllCaps="false"
+            android:background="@color/color_green"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</LinearLayout>
